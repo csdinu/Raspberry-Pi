@@ -1,0 +1,1042 @@
+﻿  All About Raspberry Pi
+
+Table of Contents:
+
+ 1. INTRODUCTION 
+     1. What is a Raspberry Pi?
+     2. Can I buy shares in the Raspberry Pi Foundation? 
+ 2. BUYING AND SHIPPING 
+     1. Where can I buy a Raspberry Pi? 
+     2. How much does it cost? 
+     3. What do I get when I buy one? 
+     4. Why is the price in US Dollars? You are a UK company! 
+     5. Is there a buy-one-give-one program? 
+     6. Is the device available internationally?
+     7. I want to be a Raspberry Pi reseller. 
+ 3. GENERAL 
+     1. What is the username and password for the Raspberry Pi?
+     2. Why does nothing happen when I type in my password? Did my
+        Raspberry Pi freeze? 
+     3. What are the differences between Raspberry Pi models?        
+     4. How do I connect a mouse and keyboard? 
+     5. Where is the on / off switch?
+     6. Who or what is NOOBS? 
+     7. When will the next model of the Raspberry Pi be released?
+     8. What are the dimensions of the Raspberry Pi? 
+     9. What hardware documentation is available? 
+    10. What SoC are you using? 
+    11. What is an SoC? 
+    12. Why did you select the ARM1176JZFS?
+    13. How does it boot? 
+    14. Do you sell a self-assembly kit? 
+ 4. PERFORMANCE AND COST CONSIDERATIONS 
+     1. How powerful is it?
+     2. Does it overclock? 
+     3. Does it need a heatsink? 
+     4. What hardware interfaces does it have? 
+     5. Why is there no real-time clock (RTC)?
+     6. Can I add extra memory? 
+     7. Why doesn’t the Raspberry Pi include <insert name> piece of
+        hardware or <insert name> sort of port? 
+     8. What is its operating temperature?
+     9. Does it blend? 
+ 5. CAMERA 
+     1. What is the camera board? 
+     2. What model of camera does the camera board use? 
+     3. What resolutions are supported? 
+     4. Which picture formats are supported? 
+     5. How do I use the camera? 
+     6. Can I extend the ribbon cable? 
+     7. Can I have a camera with more MPs? 
+     8. How much power does the camera module use? 
+ 6. CASES 
+     1. Does it have a case? 
+     2. Does it fit in an Altoids tin? 
+ 7. VIDEO 
+     1. What displays can I use? 
+     2. Does the HDMI port support CEC? 
+     3. Why is there no VGA support? 
+     4. Can I add a touchscreen? 
+     5. What codecs can it play? 
+ 8. AUDIO 
+     1. Is sound over HDMI supported? 
+     2. What about standard audio in and out? 
+ 9. POWER 
+     1. What are the power requirements? 
+     2. Can I power the Raspberry Pi from a USB hub? 
+     3. Can I power the Raspberry Pi from batteries as well as from a
+        wall socket? 
+     4. Is Power over Ethernet (PoE) possible? 
+10. SOFTWARE 
+     1. What operating system (OS) does it use? 
+     2. Does it have an official programming language? 
+     3. Will it run WINE (or Windows, or other x86 software)? 
+     4. Will it run the Windows 8 ARM edition? 
+     5. Which Linux distros run on the Pi? 
+     6. Will it run Android? 
+     7. Will it run <insert name of program here>? 
+11. SD CARDS AND STORAGE 
+     1. What size of SD card do I need? 
+     2. What size of SD card can it support? 
+     3. What happens if I brick the device? 
+12. NETWORKING, USB, AND WIRELESS
+     1. Does the device support networking? 
+     2. Is there built-in WiFi? 
+     3.  Is there built-in Bluetooth? 
+     4. Why is there no Gigabit Ethernet? 
+     5. Does the device have support for any form of netbooting or PXE?
+     6. How do you connect more USB devices? 
+13. EDUCATIONAL USES 
+     1. What educational resources are available? 
+14. ADDITIONAL QUESTIONS
+     1. Glossary 
+         1. BGA 
+         2. SoC 
+         3. GPIO 
+         4. GPU 
+         5. Distro
+         6. Brick 
+         7. PXE 
+         8. PoE 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      *A. INTRODUCTION*
+
+
+        *1. WHAT IS A RASPBERRY PI?*
+
+The Raspberry Pi is a credit card-sized computer that plugs into your TV
+and a keyboard. It is a capable little computer which can be used in
+electronics projects, and for many of the things that your desktop PC
+does, like spreadsheets, word processing, browsing the internet, and
+playing games. It also plays high-definition video. We want to see it
+being used by kids all over the world to learn programming. You can read
+more about the Raspberry Pi here
+<https://www.raspberrypi.org/help/what-is-a-raspberry-pi/>.
+-Introduction <#topIntro> -Top <#topToc>
+
+
+
+        *2. CAN I BUY SHARES IN THE RASPBERRY PI FOUNDATION?*
+
+The Raspberry Pi Foundation is a charity, so you can’t buy shares in the
+company. If you want to support us, we would love you to buy a Raspberry
+Pi. -Introduction <#topIntro> -Top <#topToc>
+
+
+      *B. BUYING AND SHIPPING*
+
+
+        *1. WHERE CAN I BUY A RASPBERRY PI?*
+
+You can buy a Raspberry Pi from our main distributors, Premier
+Farnell/Element14
+<http://www.element14.com/community/community/raspberry-pi>and RS
+Components/Allied Electronics
+<http://uk.rs-online.com/web/generalDisplay.html?id=raspberrypi>. Both
+distributors sell all over the world. There are also many resellers of
+Raspberry Pis, both online and in bricks-and-mortar stores. -Buying and
+Shipping <#topBuying> -Top <#topToc>
+
+
+        *2. HOW MUCH DOES IT COST?*
+
+The Model A+ costs $20, the Model B+ costs $25, the Pi 2 costs $35, the
+Pi 3 costs $35, and the Pi Zero costs $5, plus local taxes and
+shipping/handling fees. -Buying and Shipping <#topBuying> -Top <#topToc>
+
+
+        *3. WHAT DO I GET WHEN I BUY ONE?*
+
+You get the Raspberry Pi board itself. A power supply and SD card are
+not included, but can be purchased at the same time from most places
+that sell the Raspberry Pi. You can also purchase pre-loaded SD cards
+<https://shop.pimoroni.com/products/noobs-8gb-sd-card> too; we recommend
+buying these from us or our licensed distributors rather than from third
+parties on eBay, as the software is being updated all the time and cards
+sold by third parties can quickly become outdated. -Buying and Shipping
+<#topBuying> -Top <#topToc>
+
+
+        *4. WHY IS THE PRICE IN US DOLLARS? YOU ARE A UK COMPANY!*
+
+The components we buy are priced in dollars, and we negotiate
+manufacturing in dollars. Because currency markets are so volatile, we
+price the final board in dollars too so we don’t have to keep changing
+the price. -Buying and Shipping <#topBuying> -Top <#topToc>
+
+
+        *5. IS THERE A BUY-ONE-GIVE-ONE PROGRAM?*
+
+Not at the current time. We may implement a program of this sort one
+day, but we’ve come to appreciate that the scale of a program like this
+may be something our small team isn’t equipped to handle without taking
+on extra staff. You can, of course, just buy an extra Pi to donate to
+the person or organisation of your choice. -Buying and Shipping
+<#topBuying> -Top <#topToc>
+
+
+        *6. IS THE DEVICE AVAILABLE INTERNATIONALLY?*
+
+Yes. -Buying and Shipping <#topBuying> -Top <#topToc>
+
+
+        *7. I WANT TO BE A RASPBERRY PI RESELLER.*
+
+We have an exclusive manufacturing and distribution arrangement with RS
+and Farnell. Resellers buy the Raspberry Pi in bulk from them (which
+reduces shipping costs to nearly nothing) and sell on. You do not need
+any special license to resell, and the distributors are very happy to
+sell on to resellers. Unfortunately, because of the way the pricing
+model works, and the fact that we are a charity, you will have to buy in
+very large quantities before you will qualify for any bulk discount;
+what most resellers are doing is using the resale process as a way to
+sell high-margin peripherals and so on. -Buying and Shipping
+<#topBuying> -Top <#topToc>
+
+
+      *C. GENERAL*
+
+
+        *1. WHAT IS THE USERNAME AND PASSWORD FOR THE RASPBERRY PI?*
+
+The default username for Raspbian is “pi” (without any quotation marks)
+and the default password is “raspberry” (again, do not include the
+quotation marks). If this does not work, check the information about
+your specific distro on the downloads page
+<https://www.raspberrypi.org/downloads>. -General <#topGeneral> -Top
+<#topToc>
+
+
+        *2. WHY DOES NOTHING HAPPEN WHEN I TYPE IN MY PASSWORD? DID MY
+        RASPBERRY PI FREEZE?*
+
+To protect your information, Linux does not display anything when typing
+in passwords in the Bash prompt or the terminal. As long as you were
+able to see the username being typed in, your keyboard is working
+correctly. -General <#topGeneral> -Top <#topToc>
+
+
+        *3. WHAT ARE THE DIFFERENCES BETWEEN MODELS?*
+
+These are the current models of the Raspberry Pi available: the Pi 2
+Model B, the Pi 3 Model B, the Pi Zero, and the Pi 1 Model B+ and A+.
+
+The Model A+ is the low-cost variant of the Raspberry Pi. It has 256MB
+RAM, one USB port, 40 GPIO pins and no Ethernet port. The Model B+ is
+the final revision of the original Raspberry Pi. It has 512MB RAM (twice
+as much as the A+), four USB ports, 40 GPIO pins, and an Ethernet port.
+In February 2015, it was superseded by the Pi 2 Model B, the second
+generation of the Raspberry Pi. The Pi 2 shares many specs with the Pi 1
+B+, but it uses a 900MHz quad-core ARM Cortex-A7 CPU and has 1GB RAM.
+The Pi 2 is completely compatible with first generation boards, and is
+the model we recommend for use in schools, due to its flexibility for
+the learner. The Pi 3 Model B was launched in February 2016; it uses
+a 1.2GHz 64-bit quad-core ARM Cortex-A53 CPU, has 1GB RAM, integrated
+802.11n wireless LAN, and Bluetooth 4.1. Finally, the Pi Zero is half
+the size of a Model A+, with a 1Ghz single-core CPU and 512MB RAM, and
+mini-HDMI and USB On-The-Go ports.
+
+ 
+
+You can check our products <https://www.raspberrypi.org/products/> pages
+for more details on current boards. There are also some models of
+Raspberry Pi which are no longer in production, but which may be
+available second-hand or from resellers. The Model A was the initial
+low-cost variant of the Pi. It was replaced by the smaller, neater Model
+A+ in November 2014; it shares the same specs as the A+, but has only 26
+GPIO pins. The Model B was the previous incarnation of the B+; again, it
+shares most of the same specs, but has only 2 USB ports and 26 GPIO
+pins. -General <#topGeneral> -Top <#topToc>
+
+
+        *4. HOW DO I CONNECT A MOUSE AND KEYBOARD?*
+
+The Model A/A+ has one USB port, the Model B has two ports, and the
+Model B+, 2B and 3B have four ports. These can be used to connect most
+USB 2.0 devices. Additional USB devices such as mice, keyboards, network
+adapters and external storage can be connected via a USB hub. -General
+<#topGeneral> -Top <#topToc>
+
+
+        *5. WHERE IS THE ON/OFF SWITCH?*
+
+There is no on/off switch! To switch on, just plug it in. To switch off,
+if you are in the graphical environment, first exit to the Bash prompt
+or open the terminal. From the Bash prompt or terminal you can shut down
+the Raspberry Pi by entering “sudo halt -h” (without the quotation
+marks). Wait until all the LEDs except the power LED are off, then wait
+an additional second to make sure the SD card can finish its wear
+levelling tasks and write actions. You can now safely unplug the
+Raspberry Pi. Failure to properly shut down the Raspberry Pi may corrupt
+your SD card, which would mean you would have to re-image it. -General
+<#topGeneral> -Top <#topToc>
+
+
+        *6. WHO OR WHAT IS NOOBS?*
+
+NOOBS stands for New Out of Box Software. It is our recommended
+installation method. It allows you to install the distro of your choice,
+even if you have little to no computing or Linux experience. You can
+learn more about NOOBS here.
+<https://www.raspberrypi.org/help/noobs-setup/> -General <#topGeneral>
+-Top <#topToc>
+
+
+        *7. WHEN WILL THE NEXT MODEL OF THE RASPBERRY PI BE RELEASED?*
+
+As of February 2016, the third generation of the Model B Raspberry Pi
+has been released. Beyond this revision, which upgraded the main
+processor on the board to a 64-bit version, there are no immediate plans
+to release any more new models. We concentrate our engineering effort on
+making the software that runs on the Raspberry Pi faster and better all
+the time, which is why you should always ensure that you are running the
+most recent firmware. -General <#topGeneral> -Top <#topToc>
+
+
+        *8. WHAT ARE THE DIMENSIONS OF THE RASPBERRY PI?*
+
+The Raspberry Pi measures 85.60mm x 56mm x 21mm (or roughly 3.37″ x
+2.21″ x 0.83″), with a little overlap for the SD card and connectors
+which project over the edges. It weighs 45g. The Pi Zero measures 65mm x
+30mm x 5.4mm (or roughly 2.56″ x 1.18″ x 0.20″). For the mechanical
+outline, please see the documentation here
+<https://www.raspberrypi.org/documentation/hardware/raspberrypi/mechanical/README.md>. -General
+<#topGeneral> -Top <#topToc>
+
+
+        *9. WHAT HARDWARE DOCUMENTATION IS AVAILABLE?*
+
+All available documentation is in our documentation repository
+<https://www.raspberrypi.org/documentation/>. -General <#topGeneral>
+-Top <#topToc>
+
+
+        *10. WHAT SoC ARE YOU USING?*
+
+All versions and revisions of the Raspberry Pi other than the Raspberry
+Pi 2B/3B use the Broadcom BCM2835. This contains an ARM1176JZFS with
+floating point, running at 700Mhz, and a Videocore 4 GPU. The GPU is
+capable of Blu-Ray-quality playback, using H.264 at 40MBits/s. It has a
+fast 3D core, accessed using the supplied OpenGL ES2.0 and OpenVG
+libraries. The Model 2B uses the Broadcom BCM2836. This contains a
+quad-core ARM Cortex-a7 processor with floating point and NEON, running
+at 900MHz, and the same Videocore 4 GPU that is in the other models of
+Raspberry Pi. The Model 3B uses the Broadcom BCM2837, containing a
+quad-core ARM Cortex-A53 running at 1.2GHz. Its GPU capabilities are
+equivalent to the Pi 2. -General <#topGeneral> -Top <#topToc>
+
+
+        *11. WHAT IS AN SoC?*
+
+A System on a Chip (SoC) is a method of placing all necessary
+electronics for running a computer on a single chip. Instead of having
+an individual chip for the CPU, GPU, USB controller, RAM, northbridge,
+southbridge, and so on, everything is compressed down into one tidy
+package. -General <#topGeneral> -Top <#topToc>
+
+
+        *12. WHY DID YOU SELECT THE ARM1176JZFS?*
+
+Cost and performance. -General <#topGeneral> -Top <#topToc>
+
+
+        *13. HOW DOES IT BOOT?*
+
+All the files necessary for booting are installed in a FAT32 partition
+of the SD card. The Raspberry Pi has to have an SD card installed to
+boot from, but a USB HD can “take over” after the initial boot. You
+cannot boot without an SD card. -General <#topGeneral> -Top <#topToc>
+
+
+        *14. DO YOU SELL A SELF-ASSEMBLY KIT?*
+
+No. It would be too expensive for us to provide kits alongside finished
+boards, which would mean introducing another step in manufacturing. A
+kit would also be impossible to hand-solder. We use special equipment
+(robots!) to solder on the BGA package and other tiny components.
+-General <#topGeneral> -Top <#topToc>
+
+
+      *D. PERFORMANCE AND COST CONSIDERATIONS*
+
+
+        *1. HOW POWERFUL IS IT?*
+
+The GPU provides OpenGL ES 2.0, hardware-accelerated OpenVG, and 1080p30
+H.264 high-profile encode and decode. The GPU is capable of 1Gpixel/s,
+1.5Gtexel/s or 24 GFLOPs of general purpose compute and features a bunch
+of texture filtering and DMA infrastructure. This means that graphics
+capabilities are roughly equivalent to the original Xbox’s level of
+performance. Overall real world performance for models A, A+, B & B+ is
+something like a 300MHz Pentium 2, only with much better graphics. The
+Model 2B is approximately equivalent to an Athlon Thunderbird running at
+1.1GHz: again, it has the much higher-quality graphics that come from
+using the same GPU as in previous models. The Model 3B is around 50%
+faster than the 2B. -Performance and Cost Considerations <#topCost> -Top
+<#topToc>
+
+
+        *2. DOES IT OVERCLOCK?*
+
+The Raspberry Pi models A, A+, B, and B+ operate at 700 MHz by default.
+Most devices will run happily at 800MHz. The model 2B operates at 900MHz
+by default and should run quite happily at 1000MHz. In the latest
+Raspbian distro, there is an option to change the overclocking options
+on first boot and at any time afterwards, without voiding your warranty,
+by running “sudo raspi-config”. You can download the Raspbian image
+directly or install it via the NOOBS installer, both available on our
+downloads page. <https://www.raspberrypi.org/downloads/>It should be
+noted, however, that these are experimental settings and that not every
+board will be able to run stably at the highest setting. If you
+experience problems, try reducing the overclocking settings until
+stability is restored. -Performance and Cost Considerations <#topCost>
+-Top <#topToc>
+
+
+        *3. DOES IT NEED A HEATSINK?*
+
+You should not need to use a heatsink, as the chip used in the Raspberry
+Pi is equivalent to that used in a mobile phone, and should not become
+hot enough to need any special cooling. However, depending on the case
+you are using and the overclocking settings, you might find a heatsink
+to be advantageous. We recommend the use of a heatsink if overclocking
+the Model 3B. Of course, if you just like the look of one, you will not
+hurt the Raspberry Pi by placing an appropriately-sized heatsink on it.
+-Performance and Cost Considerations <#topCost> -Top <#topToc>
+
+
+        *4. WHAT HARDWARE INTERFACES DOES IT HAVE?*
+
+Depending on the model, the Raspberry Pi has either 40 or 26 dedicated
+GPIO pins. In all cases, these include a UART, an I2C bus, a SPI bus
+with two chip selects, I2S audio, 3V3, 5V, and ground. The maximum
+number of GPIOs can theoretically be indefinitely expanded by making use
+of the I2C or SPI bus. -Performance and Cost Considerations <#topCost>
+-Top <#topToc>
+
+
+        *5. WHY IS THERE NO REAL-TIME CLOCK (RTC)?*
+
+The expectation is that non-network-connected units will have their
+clocks updated manually at startup. Adding an RTC is surprisingly
+expensive once you have factored in batteries, area and components, and
+would have pushed us above our target price. You can add one yourself
+using the GPIO pins if you’d like an interesting electronics project.
+-Performance and Cost Considerations <#topCost> -Top <#topToc>
+
+
+        *6. CAN I ADD EXTRA MEMORY?*
+
+No. The RAM on the model A, A+, B, B+, and Zero is a Package on Package
+(POP) on top of the SoC, so it is not removable or swappable. The RAM on
+the Model 2B/3B is on a separate chip on the bottom of the PCB, but 1GB
+is the maximum RAM that the SoC used by the Model 2B can support.
+-Performance and Cost Considerations <#topCost> -Top <#topToc>
+
+
+        *7. WHY DOESN’T THE RASPBERRY PI INCLUDE <INSERT NAME> PIECE OF
+        HARDWARE OR <INSERT NAME> SORT OF PORT?*
+
+Our main aim is a charitable one: we are trying to build the cheapest
+possible computer that provides a certain basic level of functionality,
+and keeping the price low means we’ve had to make hard decisions about
+what hardware and interfaces to include. -Performance and Cost
+Considerations <#topCost> -Top <#topToc>
+
+
+        *8. What is its operating temperature?*
+
+The Raspberry Pi is built from commercial chips which are qualified to
+different temperature ranges; the LAN9512 is specified by the
+manufacturers as being qualified from 0°C to 70°C, while the AP is
+qualified from -40°C to 85°C. You may well find that the board will work
+outside those temperatures, but we’re not qualifying the board itself to
+these extremes. -Performance and Cost Considerations <#topCost> -Top
+<#topToc>
+
+
+        *9. DOES IT BLEND?*
+
+Yes. We have conducted extensive virtual simulations. No Raspberry Pis
+were harmed in the testing process. -Performance and Cost Considerations
+<#topCost> -Top <#topToc>
+
+
+      *E. CAMERA*
+
+
+        *1. WHAT IS THE CAMERA BOARD?*
+
+The camera board is a small PCB that connects to the CSI-2 camera port
+on the Raspberry Pi using a short ribbon cable. It provides connectivity
+for a camera capable of capturing still images or video recordings. The
+camera connects to the Image System Pipeline (ISP) in the Raspberry Pi’s
+SoC, where the incoming camera data is processed and eventually
+converted to an image or video on the SD card (or other storage). You
+can read more about the camera board here
+<https://www.raspberrypi.org/products/>. -Camera <#topCamera> -Top <#topToc>
+
+
+        *2. WHAT MODEL OF CAMERA DOES THE CAMERA BOARD USE?*
+
+The camera module V2 is a Sony IMX219, while the original camera module
+is an Omnivision 5647. They are comparable to cameras used in mobile
+phones. -Camera <#topCamera> -Top <#topToc>
+
+
+        *3. WHAT RESOLUTIONS ARE SUPPORTED?*
+
+The camera module V2 is capable of taking photos up to 8 megapixels
+(8MP). It supports 1080p30, 720p60 and VGA90 video modes, as well as
+still capture. The original camera module is capable of taking photos up
+to 5 megapixels and can record video at resolutions up to 1080p30.
+-Camera <#topCamera> -Top <#topToc>
+
+
+        *4. WHICH PICTURE FORMATS ARE SUPPORTED?*
+
+The camera module supports raw capturing (Bayer data direct from the
+sensor) or encoding as JPEG, PNG, GIF and BMP, uncompressed YUV, and
+uncompressed RGB photos. It can record video as H.264, baseline,
+main and high-profile formats. -Camera <#topCamera> -Top <#topToc>
+
+
+        *5. HOW DO I USE THE CAMERA?*
+
+There are three command line applications provided for stills, video,
+and stills output uncompressed. These applications provide the typical
+features you might find on a compact cameras, such as set image size,
+compression quality, exposure mode, and ISO. See the documentation
+<https://www.raspberrypi.org/documentation/hardware/camera.md> for more
+details. -Camera <#topCamera> -Top <#topToc>
+
+
+        *6. CAN I EXTEND THE RIBBON CABLE?*
+
+Yes. We have reports of people using cables up to 4 metres and still
+receiving acceptable images, though your experience may differ. -Camera
+<#topCamera> -Top <#topToc>
+
+
+        *7. CAN I HAVE A CAMERA WITH MORE MEGAPIXELS?*
+
+No; this is the only camera module that is compatible with the Raspberry
+Pi. There are currently no plans to release a higher-resolution sensor.
+-Camera <#topCamera> -Top <#topToc>
+
+
+        *8. HOW MUCH POWER DOES THE CAMERA MODULE USE?*
+
+The camera board requires 250mA to operate. Ensure that your power
+supply can provide enough power for the camera module, as well as the
+Raspberry Pi and any peripherals directly attached to the Raspberry Pi.
+-Camera <#topCamera> -Top <#topToc>
+
+
+      *F. CASES*
+
+
+        *1. DOES IT COME WITH A CASE?*
+
+An official case for the Raspberry Pi is available from our Store
+<https://www.raspberrypi.org/products/raspberry-pi-case/>. There are
+also lots of homebrew case discussions on the forum, as well as several
+third-party cases available. We suggest stopping by the cases sub-forum
+<https://www.raspberrypi.org/phpBB3/viewforum.php?f=40> and reading some
+of the threads about cases you can purchase or build yourself. -Cases
+<#topCases> -Top <#topToc>
+
+
+        *2. DOES IT FIT IN AN ALTOIDS TIN?*
+
+It is possible to make a case for the Raspberry Pi out of an Altoids
+tin: there are instructions given in a forum post here
+<https://www.raspberrypi.org/forums/viewtopic.php?f=40&t=28814> (the
+directions are also available as an Instructables guide
+<http://www.instructables.com/id/How-to-Make-a-Raspberry-Pi-Case-From-an-Altoids-Ti/>).
+However, you may find that this is not possible with older boards, as
+their form factors are not as neat. You can, of course, fit a Pi Zero
+into an Altoids tin with room to spare. -Cases <#topCases> -Top <#topToc>
+
+
+      *G. VIDEO*
+
+
+        *1. WHAT DISPLAYS CAN I USE?*
+
+There is composite and HDMI out on the board, so you can hook it up to
+an old analogue TV through the composite or through a composite to scart
+connector, to a digital TV or to a DVI monitor (using a cheap, passive
+HDMI->DVI cable for the DVI). For the Model B+, 2B and 3B, the RCA
+composite jack has been replaced with a 3.5mm jack that combines audio
+and video in one. You’ll need a 3.5mm to 3RCA adapter cable to connect
+it to an older TV. There are many different types of this cable out
+there, but you want to purchase on that is compatible with the iPod
+Video (the iPod will have the left and right audio channels reversed,
+but the version of Raspbian included with NOOBS can swap this for you).
+The Pi Zero uses a mini-HDMI port.
+
+There is no VGA support, but active adapters are available. Passive
+HDMI->VGA cables will not work with the Raspberry Pi. When purchasing an
+active VGA adapter, make sure it comes with an external power supply.
+HDMI->VGA adapters without an external power supply often fail to work.
+-Video <#topVideo> -Top <#topToc>
+
+
+        *2. DOES THE HDMI PORT SUPPORT CEC?*
+
+Yes, the HDMI port on the Raspberry Pi supports the CEC Standard. CEC
+may be called something else by your TV’s manufacturer; check the
+Wikipedia entry on CEC
+<http://en.wikipedia.org/wiki/Consumer_Electronics_Control#CEC> for more
+information. -Video <#topVideo> -Top <#topToc>
+
+
+        *3. WHY IS THERE NO VGA SUPPORT?*
+
+The chip we use supports HDMI and composite outputs but does not support
+VGA. VGA is considered to be an end-of-life technology, so supporting it
+doesn’t fit with our plans at the moment. However, if you really want to
+use a VGA monitor with a Raspberry Pi then it is possible  using an
+HDMI->VGA adapter or Gert Van Loo’s VGA666 adapter. -Video <#topVideo>
+-Top <#topToc>
+
+
+        *4. CAN I ADD A TOUCHSCREEN?*
+
+The Foundation provides a 7″ capacitive touchscreen that utilises the
+Pi’s DSI port, which is available through the usual distributors.
+Alternatively, several third-party retailers offer a range of
+touchscreens for the Raspberry Pi. -Video <#topVideo> -Top <#topToc>
+
+
+        *5. WHAT CODECS CAN IT PLAY?*
+
+The Raspberry Pi can encode (record) and decode (play) H.264 (MP4/MKV)
+out of the box. There are also two additional codecs you can purchase
+through the Swag Store
+<http://swag.raspberrypi.org/collections/software> that enable you to
+decode MPEG-2
+<http://swag.raspberrypi.org/collections/software/products/mpeg-2-license-key>,
+a very popular and widely used format to encode DVDs, video camera
+recordings, TV and many others, and VC-1
+<http://swag.raspberrypi.org/collections/software/products/vc-1-license-key>,
+a Microsoft format found in Blu-Ray discs, Windows Media, Slingbox, and
+HD-DVDs. -Video <#topVideo> -Top <#topToc>
+
+
+      *H. AUDIO*
+
+
+        *1. IS SOUND OVER HDMI SUPPORTED?*
+
+Yes. -Audio <#topAudio> -Top <#topToc>
+
+
+        *2. WHAT ABOUT STANDARD AUDIO IN AND OUT?*
+
+There is a standard 3.5mm jack for audio out to an amplifier. You can
+add any supported USB microphone for audio in or, using the I2S
+interface, you can add a codec for additional audio I/O. -Audio
+<#topAudio> -Top <#topToc>
+
+
+      *I. POWER*
+
+
+        *1. WHAT ARE THE POWER REQUIREMENTS?*
+
+The device is powered by 5V micro-USB. Exactly how much current (mA) the
+Raspberry Pi requires is dependent on what you hook up to it. We have
+found that purchasing a 1.2A (1200mA) power supply from a reputable
+retailer will provide you with ample power to run your Raspberry Pi for
+most applications, though you may want to get a 2.5A (2500mA) power
+supply if you want to use all 4 USB ports on the Models B+/2B/3B without
+using an external powered USB hub. The table below outlines the power
+requirements of each model.
+
+Product 	Recommended PSU current capacity 	Maximum total USB peripheral
+current draw 	Typical bare-board active current consumption
+Raspberry Pi Model A 	700mA 	500mA 	200mA
+Raspberry Pi Model B 	1.2A 	500mA 	500mA
+Raspberry Pi Model A+ 	700mA 	500mA 	180mA
+Raspberry Pi Model B+ 	1.8A 	600mA/1.2A (switchable) 	330mA
+Raspberry Pi 2 Model B 	1.8A 	600mA/1.2A (switchable) 	
+Raspberry Pi 3 Model B 	2.5A 	1.2A 	~400mA
+
+The specific current requirements of each model are dependent on the use
+case: the PSU recommendations are based on “typical maximum” current
+consumption, the typical current consumption is for each board in a
+“desktop computer” configuration. The Raspberry Pi model A, A+, and B
+can supply a maximum of 500mA to downstream USB peripherals. If you wish
+to connect a high-power USB device then it is recommended to connect a
+powered USB hub to the Pi and connect your peripherals to the USB hub.
+The Raspberry Pi model B+ and 2B can supply 600mA/1.2A to downstream USB
+peripherals, switchable by a firmware setting. This allows the vast
+majority of USB devices to be connected directly to these models,
+assuming the upstream power supply has sufficient available current.
+Very high-current devices or devices can draw a surge current such as
+certain 3G modems and USB hard disks will still require an external
+powered USB hub. The power requirements of the Raspberry Pi increase as
+you make use of the various interfaces on the Raspberry Pi. The GPIO
+pins can draw 50mA safely (that is 50mA distributed across all the pins!
+An individual GPIO pin can only safely draw 16mA), the HDMI port uses
+50mA, the camera module requires 250mA, and keyboards and mice can take
+as little as 100mA or as much as 1000mA! Check the power rating of the
+devices you plan to connect to the Pi and purchase a power supply
+accordingly. If you’re not sure, we would advise you to buy a powered hub.
+
+Here is a table comparing the amount of power drawn in amps under
+different situations:
+
+* * 	* * 	*Pi1 (B+)* 	*Pi2 B* 	*Pi3 B (Amps)* 	*Zero (Amps)*
+Boot 	Max 	0.26 	0.40 	0.75 	0.20
+	Avg 	0.22 	0.22 	0.35 	0.15
+Idle 	Avg 	0.20 	0.22 	0.30 	0.10
+Video playback (H.264) 	Max 	0.30 	0.36 	0.55 	0.23
+	Avg 	0.22 	0.28 	0.33 	0.16
+Stress 	Max 	0.35 	0.82 	1.34 	0.35
+	Avg 	0.32 	0.75 	0.85 	0.23
+
+Test conditions used a standard Raspbian image (current as of 26 Feb
+2016), at room temperature, connected to a HDMI monitor, USB keyboard
+and mouse. For the Model 3B it was connected to a WiFi access point. All
+these power measurements do not take into account power consumption from
+additional USB devices; these measurements can easily be exceeded with
+multiple additional USB devices connected or using a HAT.
+
+-Power <#topPower> -Top <#topToc>
+
+
+        *2. CAN I POWER THE RASPBERRY PI FROM A USB HUB?*
+
+It depends on the hub. Some hubs comply with the USB 2.0 Standard and
+only provide 500mA per port, which may not be enough to power your
+Raspberry Pi. Other hubs view the USB standards more like guidelines,
+and will provide as much power as you want from each port. Please also
+be aware that some hubs have been known to “backfeed” the Raspberry Pi.
+This means that the hubs will power the Raspberry Pi through its USB
+input cable, without the need for a separate micro-USB power cable, and
+bypass the voltage protection. If you are using a hub that “backfeeds”
+to the Raspberry Pi and the hub experiences a power surge, your
+Raspberry Pi could potentially be damaged. -Power <#topPower> -Top <#topToc>
+
+
+        *3. CAN I POWER THE RASPBERRY PI FROM BATTERIES AS WELL AS FROM
+        A WALL SOCKET?*
+
+Running the Raspberry Pi directly from batteries requires special care
+and can result in damaging or destroying your Raspberry Pi. If you
+consider yourself an advanced user, though, you could have a go. For
+example, 4xAA rechargeable batteries would provide 4.8V on a full
+charge. 4.8V would technically be just within the range of tolerance for
+the Raspberry Pi, but the system would quickly become unstable as the
+batteries lost their full charge. Conversely, using 4xAA Alkaline
+(non-rechargeable) batteries will result in 6V. 6V is outside the
+acceptable tolerance range and would potentially damage or, in the worst
+case scenario, destroy your Raspberry Pi. It is possible to provide a
+steady 5V from batteries by using a buck and/or boost circuit, or by
+using a charger pack which is specifically designed to output a steady
+5V from a couple of batteries; these devices are typically marketed
+as mobile phone emergency battery chargers. -Power <#topPower> -Top
+<#topToc>
+
+
+        *4. IS POWER OVER ETHERNET (PoE) POSSIBLE?*
+
+Not in the base device. There are adapters that would split the voltage
+off the Ethernet line before connecting to the Pi, but they are
+relatively expensive. -Power <#topPower> -Top <#topToc>
+
+
+      *J. SOFTWARE*
+
+
+        *1. WHAT OPERATING SYSTEM (OS) DOES IT USE?*
+
+There are several official distributions (distros) available on our
+downloads <https://www.raspberrypi.org/downloads> page. New users will
+probably find the NOOBS installer the easiest to work with, as it walks
+you through the download and installation of a specific distro. The
+recommended distro is Raspbian, which is specifically designed for the
+Raspberry Pi and which our engineers are constantly optimising. It is,
+however, a straightforward process to replace the root partition on the
+SD card with another ARM Linux distro, so we encourage you to try out
+several distros to see which one you like the most. The OS is stored on
+the SD card. -Software <#topSoftware> -Top <#topToc>
+
+
+        *2. DOES IT HAVE AN OFFICIAL PROGRAMMING LANGUAGE?*
+
+The Raspberry Pi Foundation recommends Python as a language for
+learners. We also recommend Scratch for younger kids. Any language which
+will compile for ARMv6 (Pi 1) or ARMv7 (Pi 2) can be used with the
+Raspberry Pi, though, so you are not limited to using Python. C, C++,
+Java, Scratch, and Ruby all come installed by default on the Raspberry
+Pi. -Software <#topSoftware> -Top <#topToc>
+
+
+        *3. WILL IT RUN WINE (OR WINDOWS, OR OTHER X86 SOFTWARE)?*
+
+In general, this is not possible with most versions of the Raspberry Pi.
+Some people have put Windows 3.1 on the Raspberry Pi inside an x86 CPU
+emulator in order to use specific applications, but trying to use a
+version of Windows even as recent as Windows 98 can take hours to boot
+into, and may take several more hours to update your cursor every time
+you try to move it. We don’t recommend it! As of summer 2015, a version
+of Windows 10 is available for use on the Raspberry Pi 2. This is an
+entirely new version of the operating system designed exclusively for
+embedded use, dubbed the Windows 10 Internet of Things (IoT) Core. It
+does not include the user interface (“shell”) or the desktop operating
+system.   -Software <#topSoftware> -Top <#topToc>
+
+
+        *4. WILL IT RUN THE WINDOWS 8 ARM EDITION?*
+
+No. Even if Microsoft decided to devote all its resources to getting
+Windows 8 on the Pi it would not work. The Raspberry Pi lacks the
+minimum memory and CPU requirements, it runs on a version of the ARM
+processor that is not supported by Windows 8, it lacks the appropriate
+axis sensors, and there are many other limiting factors. The Pi will not
+run Windows 8. -Software <#topSoftware> -Top <#topToc>
+
+
+        *5. WHAT LINUX DISTROS RUN ON THE PI?*
+
+Raspbian (based on Debian), Arch Linux and Pidora run on Raspberry Pi 1
+and 2. Ubuntu MATE and Ubuntu Snappy Core also run on Pi 2 only. See our
+downloads page <https://www.raspberrypi.org/downloads/> for more
+information. -Software <#topSoftware> -Top <#topToc>
+
+
+        *6. WILL IT RUN ANDROID?*
+
+No. While a version of Android can be found in the forum, it is not
+stable enough for everyday use. There are no plans to continue working
+on it, as Android does not provide any enhancement to educational
+purposes that are not already fulfilled more readily with existing
+software – we see it as a platform for consumption, not creation.
+-Software <#topSoftware> -Top <#topToc>
+
+
+        *7. WILL IT RUN <INSERT NAME OF PROGRAM HERE>*
+
+In general, you need to look to see whether the program you want can be
+compiled for the ARMv6 (Pi 1) or ARMv7 (Pi 2) architecture. In most
+cases, the answer will be yes. Specific programs are discussed on our
+forum, so you might want to look there for an answer. Ultimately,
+nothing beats grabbing a Raspberry Pi and finding out the answer through
+direct testing! -Software <#topSoftware> -Top <#topToc>
+
+
+      *K. SD CARDS AND STORAGE*
+
+
+        *1. WHAT SIZE SD CARD DO I NEED?*
+
+Whether you want to use the NOOBS installer or a standalone distro
+image, the minimum size SD card we recommend using is 8GB. This will
+give you the free space you need to install additional packages or make
+programs of your own. The original Raspberry Pi Model A
+<https://www.raspberrypi.org/products/model-a/> and Raspberry Pi Model B
+<https://www.raspberrypi.org/products/model-b/> require full-size SD
+cards. The newer Raspberry Pi Model A+
+<https://www.raspberrypi.org/products/model-a-plus/>, Raspberry Pi Model
+B+ <https://www.raspberrypi.org/products/model-b-plus/>, Raspberry Pi 2
+Model B <https://www.raspberrypi.org/products/raspberry-pi-2-model-b/>,
+Raspberry Pi Zero <https://www.raspberrypi.org/products/pi-zero/>, and
+Raspberry Pi 3 Model B
+<https://www.raspberrypi.org/products/raspberry-pi-3-model-b/> require
+micro SD cards. -SD Cards and Storage <#topSdCards> -Top <#topToc>
+
+
+        *2. WHAT SIZE SD CARD CAN IT SUPPORT?*
+
+We have tried cards up to 32GB, and most cards seem to work OK. You can
+also attach a USB stick or USB hard drive to provide extra storage. -SD
+Cards and Storage <#topSdCards> -Top <#topToc>
+
+
+        *3. WHAT HAPPENS IF I BRICK THE DEVICE?*
+
+You can restore the device by reflashing the SD card. -SD Cards and
+Storage <#topSdCards> -Top <#topToc>
+
+
+      *L. NETWORKING, USB AND WIRELESS*
+
+
+        *1. DOES THE DEVICE SUPPORT NETWORKING?*
+
+The Model B, Model B+ and Model 2B/3B versions of the device have built
+in 10/100 wired Ethernet. There is no Ethernet on the Model A,  Model
+A+, and Zero versions. -Networking, USB, and Wireless <#topNetworking>
+-Top <#topToc>
+
+
+        *2. IS THERE BUILT-IN WIFI?*
+
+Only the Pi 3 has built in WiFi, but all other models can support a USB
+WiFi dongle. The Foundation offers its own branded WiFi dongle which has
+been fully tested for use with the Raspberry Pi. It is available through
+our Swag store <http://swag.raspberrypi.org/>. You can, of course, use a
+dongle from another provider if you wish. -Networking, USB, and Wireless
+<#topNetworking> -Top <#topToc>
+
+
+        *3. IS THERE BUILT-IN BLUETOOTH?*
+
+Only on the Pi 3. -Networking, USB, and Wireless <#topNetworking> -Top
+<#topToc>
+
+
+        *4. WHY IS THERE NO GIGABIT ETHERNET?*
+
+The Ethernet is attached via the USB 2.0 bus, so the upstream bandwidth
+would not support Gigabit. -Networking, USB, and Wireless
+<#topNetworking> -Top <#topToc>
+
+
+        *5. DOES THE DEVICE HAVE SUPPORT FOR ANY FORM OF NETBOOTING OR PXE?*
+
+The Raspberry Pi does not support PXE booting or network booting without
+an SD card. If you want to network boot multiple Raspberry Pis, you
+could use PiNet <http://pinet.org.uk/>. This is a free and open-source
+community-based project initially designed for schools. Each Raspberry
+Pi boots off a small set of startup files on an SD card and fetches the
+rest of the data it needs from the PiNet server, thereby allowing you to
+maintain a single operating system image for all the Raspberry Pis.
+PiNet also adds network user accounts, shared folders and automated
+backups. -Networking, USB, and Wireless <#topNetworking> -Top <#topToc>
+
+
+        *6. HOW DO YOU CONNECT MORE USB DEVICES?*
+
+Use a USB hub to increase the number of ports. Some keyboards have USB
+hubs built in which would work well. It is highly recommended that you
+use a powered USB hub. -Networking, USB, and Wireless <#topNetworking>
+-Top <#topToc>
+
+
+      *M. EDUCATIONAL USES*
+
+
+        *1. WHAT EDUCATIONAL MATERIAL IS AVAILABLE?*
+
+There are many books about the Raspberry Pi available. For children, we
+particularly recommend Adventures in Raspberry Pi
+<https://www.raspberrypi.org/archives/5329> by Carrie Anne Philbin, who
+works with us at the Foundation. Check out our resources pages for free
+educational materials <https://www.raspberrypi.org/resources/>: we are
+always adding to these. You’ll find complete schemes of work linked to
+the England, Wales and NI curriculum, as well as resources for
+independent and informal learning. -Educational Uses <#topEducation>
+-Top <#topToc>
+
+
+      *N. ADDITIONAL QUESTIONS*
+
+
+        *I STILL HAVE MORE QUESTIONS!*
+
+Read the sticky subjects in the Beginners subforum
+<https://www.raspberrypi.org/phpBB3/viewforum.php?f=91> and check the
+help pages <https://www.raspberrypi.org/help/> for more information. If
+the answer is not there, ask in the forums
+<https://www.raspberrypi.org/phpBB3/index.php>, where there are lots of
+helpful Raspberry Pi owners, users, and fans who will be more than happy
+to help you out. -Additional Questions <#topAdditional> -Top <#topToc>
+
+
+      *O. GLOSSARY*
+
+BGA: Ball grid array. A type of surface mount packaging for electronics.
+
+SoC: System on Chip. A computer on a single chip.
+
+GPIO: General Purpose Input/Output. A pin that can be programmed to
+perform a wide range of tasks.
+
+GPU: Graphics processing unit. The hardware that handles the graphics.
+
+Distro: A specific package (“flavour”) of Linux and associated software.
+
+Brick: To accidentally render a device inert by making changes to
+software or firmware.
+
+PXE: Preboot execution environment. A way to get a device to boot via
+the network.
+
+PoE: Power over Ethernet. Powering a device via an Ethernet cable.
+-Glossary <#topGlossary> a -Top <#topToc>
+
+  *
+
+
+        About
+
+      o About Us <https://www.raspberrypi.org/about/>
+      o Team <https://www.raspberrypi.org/about/team/>
+      o Governance <https://www.raspberrypi.org/about/governance/>
+      o Partners <https://www.raspberrypi.org/about/partners/>
+  *
+
+
+        Support
+
+      o Help <https://www.raspberrypi.org/help/>
+      o Documentation <https://www.raspberrypi.org/documentation/>
+      o Learning Resources <https://www.raspberrypi.org/resources/>
+      o Training <https://www.raspberrypi.org/picademy/>
+      o Downloads <https://www.raspberrypi.org/downloads/>
+      o FAQs <https://www.raspberrypi.org/help/faqs/>
+  *
+
+
+        Contact
+
+      o Contact Us <https://www.raspberrypi.org/contact/>
+  *
+
+
+        Social
+
+      o Twitter <https://twitter.com/Raspberry_Pi>
+      o Facebook <https://www.facebook.com/raspberrypi>
+      o Google+ <https://plus.google.com/+RaspberryPi>
+      o GitHub <http://raspberrypi.github.io/>
+      o Vimeo <https://vimeo.com/raspberrypi>
+      o YouTube <https://www.youtube.com/channel/UCFIjVWFZ__KhtTXHDJ7vgng>
+
+Raspberry Pi Foundation
+UK registered charity 1129409
+
+  * Cookies <https://www.raspberrypi.org/cookies/>
+  * Trademark rules and brand guidelines
+    <https://www.raspberrypi.org/trademark-rules/>
+
